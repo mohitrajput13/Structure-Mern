@@ -1,0 +1,602 @@
+@font-face {
+  font-family: "Test-Tiempos-Bold";
+  src: url(../assets/fonts/tiempos-font/TestTiemposFine-Bold-BF66457a510211b.otf);
+}
+
+@font-face {
+  font-family: "Test-Tiempos-Semibold";
+  src: url(../assets/fonts/tiempos-font/TestTiemposHeadline-Semibold-BF66457a509040b.otf);
+}
+@font-face {
+  font-family: "Suisse-Intl-light";
+  src: url(../assets/fonts/SuisseIntl-Light.ttf);
+}
+@font-face {
+  font-family: "Suisse-Intl-medium";
+  src: url(../assets/fonts/SuisseIntl-Medium.ttf);
+}
+@font-face {
+  font-family: "Suisse-Intl-regular";
+  src: url(../assets/fonts/SuisseIntl-Regular.ttf);
+}
+@font-face {
+  font-family: "Suisse-Intl-semibold";
+  src: url(../assets/fonts/SuisseIntl-SemiBold.ttf);
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Font-Size >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.fontSize14_blue {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-regular";
+  color: #4d7080;
+}
+.fontSize14_brown {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Suisse-Intl-medium";
+  color: #383838;
+}
+.fontSize15_black {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-regular";
+  color: #222222;
+}
+.fontSize15_bluishBlack {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-light";
+  color: #1a1b1f;
+}
+.fontSize15_bluish {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Suisse-Intl-regular";
+  color: #3D514D;
+}
+.fontSize16_gray {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Suisse-Intl-regular";
+  color: #6b7280;
+}
+
+.fontSize16_DarkGray {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Suisse-Intl-regular";
+  color: #797979;
+}
+.fontSize16_Green {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Suisse-Intl-regular";
+  color: #1aae67;
+}
+.fontSize18_darkBlue {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-medium";
+  color: #003349;
+}
+.fontSize18_Green {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-medium";
+  color: #1aae67;
+}
+.fontSize18_darkGray {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-light";
+  color: #797979;
+  line-height: 31px;
+}
+.fontSize18_Gray {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-light";
+  color: #6b7280;
+  line-height: 31px;
+}
+.fontSize22_gray {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-regular";
+  color: #6b7280;
+}
+.fontSize22_white {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-light";
+  color: white;
+}
+.fontSize22_Green {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-regular";
+  color: #1aae67;
+}
+.fontSize22_white_regular {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-regular";
+  color: white;
+}
+.fontSize24_black {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Suisse-Intl-medium";
+  color: #222222;
+}
+.fontSize24_white {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-semibold";
+  color: white;
+}
+.fontSize24_Gray {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Suisse-Intl-regular";
+  color: #6b7280;
+}
+.fontSize28_black {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Suisse-Intl-medium";
+  color: #222222;
+}
+.fontSize48_white {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Test-Tiempos-Bold";
+  color: white;
+}
+.fontSize48_black {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Test-Tiempos-bold";
+  color: #222222;
+}
+.fontSize48_green {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Test-Tiempos-Bold";
+  color: #1aae67;
+}
+.fontSize55_black {
+  font-size: 55px;
+  font-weight: 600;
+  font-family: "Test-Tiempos-Bold";
+  color: #222222;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Button Styles >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.btn-style {
+  background-color: #1aae67;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-medium";
+  padding: 5px 27px 5px 27px;
+  border: none;
+  border-radius: 8px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+  height: 50px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container-fluid {
+  padding: 0 0px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0;
+}
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Navbar >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.navbar-main-section {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.05) 0px 8px 16px -8px;
+  padding: 10px 0;
+}
+.navbar-list {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.navbar-list ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar-list ul li {
+  list-style: none;
+  color: #1a1b1f !important;
+}
+.navbar-buttons {
+  display: flex;
+  align-items: center !important;
+  gap: 20px;
+}
+.logo {
+  height: 34px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Hero-Section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.hero-main-section {
+  width: 100%;
+  padding: 45px 0 65px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 31x;
+}
+
+.hero-section-part1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.hero-section-part-2 {
+  width: 50%;
+}
+.hero-section-part-2 img {
+  width: 100%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Left-Component >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.  */
+.right-main-section {
+  width: 100%;
+  padding: 45px 0 65px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 31x;
+}
+
+.right-section-part-1 {
+  width: 47%;
+}
+.right-section-part-2 {
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.right-section-part-1 img {
+  width: 86%;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Card >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.card {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: none;
+  background: transparent;
+}
+.card:hover {
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.05) 0px 8px 16px -8px;
+}
+.card img {
+  width: 42px;
+  height: 42px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Home-Section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#heading {
+  display: flex;
+  gap: 13px;
+}
+.why-choose-angies-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.why-choose-angies-section {
+  background-color: #fffaf3;
+  padding: 73px 0;
+}
+.why-choose-angies-heading {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  padding: 70px 0 0 0;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Testimonial Section >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+.client-testimonials-main-section {
+  background-color: rgba(0, 52, 37, 1);
+  padding: 100px 0;
+}
+
+.testimonials {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials-card {
+  padding: 30px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  background: rgba(43, 75, 66, 1);
+  border-radius: 19px;
+  margin-right: 10px;
+}
+.testimonials-card img {
+  width: 33px;
+  height: 29px;
+}
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.testimonial-user img {
+  width: 66px;
+  height: 66px;
+}
+.slick-dots {
+  position: absolute;
+  width: max-content !important;
+  bottom: -44px;
+}
+.client-testimonials .slick-dots li button:before {
+  bottom: -46px;
+  width: 12px;
+  height: 12px;
+  content: "" !important;
+  text-align: center;
+  opacity: 0.25;
+  border-radius: 20px;
+  background: #ece5e5;
+}
+.client-testimonials .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: black;
+  width: 59px;
+  height: 10px;
+  background: rgba(26, 174, 103, 1);
+}
+.client-testimonials .slick-slider {
+  padding: 60px 0;
+}
+.client-testimonials .slick-slider .slick-next {
+  position: absolute;
+  top: 103%;
+  right: 22px !important;
+}
+.client-testimonials .slick-slider .slick-prev {
+  position: absolute;
+  top: 103%;
+  left: 92% !important;
+}
+.client-testimonials .slick-slider .slick-next:before {
+  font-size: 42px !important;
+}
+.client-testimonials .slick-slider .slick-prev:before {
+  font-size: 42px !important;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Contact  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-main-section {
+  padding: 90px 0;
+}
+.contact-details {
+  width: 43%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact-form {
+  width: 51%;
+  background-color: #f1f1f1;
+  position: relative;
+  display: flex;
+  height: fit-content;
+  justify-content: center;
+  padding: 44px 0;
+  justify-content: center;
+  border-radius: 7px;
+}
+.contact-feilds {
+  display: flex;
+  gap: 16px;
+}
+#email {
+  width: 105px;
+}
+.contact-feilds .feilds-img {
+  width: 61px;
+  height: 61px;
+  background: rgba(26, 174, 103, 1);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 32px;
+}
+button#form-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #1aae67;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Suisse-Intl-medium";
+  padding: 5px 27px 5px 27px;
+  border: none;
+  border-radius: 8px;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+
+.contact-form .form {
+  z-index: 1;
+  padding: 33px;
+  width: 100%;
+  max-width: 523px;
+  border-radius: 21px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.1) 0px 8px 16px -8px;
+}
+.contact-bg-left-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 49%;
+  height: 193px;
+  border-radius: 7px;
+  background-color: #1aae67;
+}
+.contact-bg-right-card {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 49%;
+  height: 193px;
+  border-radius: 7px;
+  background-color: #1aae67;
+}
+label.form-label,
+#label {
+  color: #7d8088 !important;
+  font-size: 17px;
+  font-family: "Suisse-Intl-regular";
+}
+.contact-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<  Footer >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.footer-main-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 50px 0 10px 0;
+}
+.footer-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.footer-services {
+  width: 15%;
+}
+.footer-newsletter {
+  width: 25%;
+}
+.social-background {
+  width: 44px;
+  height: 44px;
+  background: #12261c;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 32px;
+}
+.social-network-links {
+  display: flex;
+  gap: 13px;
+}
+.footer-main-section .footer-content #logo {
+  width: 198px;
+  height: 35px;
+}
+#footer-content {
+  line-height: 26px;
+}
+.footer-services ul {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+
+}
+.footer-services ul  li{
+  color: #4D7080;
+}
+#gap {
+  padding: 27px 0;
+}
+input.input {
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #C7C7C7;
+  padding: 9px 0 9px 9px;
+}
+.footer-newsletter .newsletter{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.copyright-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 10px 0;
+}
+.company-contact{
+  display: flex;
+  gap: 17px;
+  align-items: end;
+}
+.company-contact .vertical-line{
+  transform: rotate(90deg);
+  width: 26px;
+}
+hr{
+  color: #909495a8;
+
+}
